@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1{
+  font-size:44px;
+  padding-top:20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align:center;
+}
+header{
+  height:100px;
+  width: 100%;
+  background-color: rgb(189, 186, 182);
+}
+header img{
+  margin:15px 0;
+  float:left;
+}
+.header-right{
+  float:right;
+  margin-top:20px;
+  line-height:60px;
+}
+.header-right a{
+  padding:20px 25px;
+  border:1px solid rgb(0, 13, 134);
+
+  color:white;
+  font-weight:bold;
+}
+.fab ,.far{
+  margin-right:5px;
+}
+.mail{
+  background-color:rgb(247, 173, 11);
+}
+.line{
+  background-color:#00c300;
+}
+.top-wrapper{
+  padding:44px 100px;
+  margin-bottom:80px;
+}
+.top-wrapper h1{
+  font-size:50px;
+  padding-bottom:20px;
+}
+.examples{
+  background-color:rgb(99, 99, 96);
+  padding-top: 90px;
+  height:300px;
+  border:5px solid rgb(99, 99, 96));
+  border-radius: 20px;
+}
+.example1{
+  float:left;
+  border:5px solid rgb(26, 25, 24);
+  border-radius: 20px;
+  width:350px;
+  background-color:rgb(235, 235, 235);
+  padding:15px 0;
+  font-size: 16px;
+  font-weight:bold;
+  margin-left:130px;
+}
+.example2{
+  float:right;
+  border:5px solid rgb(26, 25, 24);
+  width:350px;
+  background-color:rgb(235, 235, 235);
+  border-radius: 20px;
+  padding:15px 0;
+  font-weight:bold;
+  margin-right:130px;
+}
+
+
+.message-wrapper{
+  padding:80px 0;
+  height:700px;
+  background-color:rgb(241, 241, 244);
+}
+.message-wrapper p{
+  font-size:20px;
+  letter-spacing: 2px;
+}
+
+
+.flow-wrapper{
+  width:100%;
+  text-align:center;
+  height:330px;
+  margin-top:40px;
+  margin-bottom:100px;
+}
+.flow{
+  float:left;
+  width:25%;
+}
+.flow-icon{
+  position: relative;
+  margin-top:50px;
+}
+.flow-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+  font-weight:bold;
+}
+
+
+.contact{
+
+  text-align:center;
+  height:50px;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+.contact a{
+  padding:30px 100px;
+  border:1px solid rgb(0, 13, 134);
+  background-color:#00c300;
+  color:white;
+  font-weight:bold;
+}
+
+.contact-form h1{
+  margin-top:50px;
+  border-bottom:2px solid rgb(207, 207, 213);
+  padding-bottom:10px;
+}
+form {
+  /* フォームをページの中央に置く */
+  margin: 0 auto;
+  width: 400px;
+  /* フォームの範囲がわかるようにする */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin-top:50px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* すべてのラベルを同じサイズにして、きちんと揃える */
+  display: inline-block;
+  width:300px;
+  text-align:left;
+}
+
+input, textarea {
+  /* すべてのテキストフィールドのフォント設定を一致させる
+     デフォルトで、textarea は等幅フォントが設定されている */
+  font: 1em sans-serif;
+
+  /* すべてのテキストフィールドを同じサイズにする */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* テキストフィールドのボーダーの外見を同一にする */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* アクティブな要素を少し強調する */
+  border-color: #000;
+}
+
+textarea {
+  /* 複数行のテキストフィールドをラベルにきちんと揃える */
+  vertical-align: top;
+
+  /* テキスト入力に十分な領域を与える */
+  height: 5em;
+}
+
+.button {
+  /* ボタンを他のテキストフィールドと同じ場所に置く */
+  text-align:center;/* label 要素と同じサイズ */
+}
+
+button {
+  /* このマージンは、ラベルとテキストフィールドの間のスペースと
+     おおよそ同じスペースを表す */
+  margin-left: .5em;
+  padding:5px 30px;
+  font-size: 20px;
+}
+
+footer{
+  border-top:1px solid rgb(97, 95, 96);
+  background-color:rgb(211, 214, 211);
+  padding:0 50px;
+  text-align: center;
+}
