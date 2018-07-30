@@ -134,7 +134,7 @@ header img{
 }
 
 .contact-mail{
-  margin-bottom:70px;
+  margin-bottom:80px;
 }
 .contact-mail a{
   padding:30px 100px;
@@ -144,8 +144,11 @@ header img{
   font-weight:bold;
 }
 
+.contact-line{
+  width:10px;
+}
 .contact-line a{
-  padding:30px 110px;
+  padding:30px 100px;
   border:1px solid rgb(0, 13, 134);
   background-color:#00c300;
   color:white;
